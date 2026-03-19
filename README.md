@@ -20,6 +20,7 @@
 | [learnX](https://github.com/robertying/learnX) | 清华大学网络学堂 App。| 支持 Android、iOS、macOS。</br>可联动 [课程信息共享计划](https://tsinghua.app/courses)（共享课程的上课时间地点）。</br>使用 Typescript、React Native 开发。|
 | [T大树洞](https://github.com/treehollow/) | 旧洞。后由于某些原因主动关停。目前可使用 [新T树洞](https://new-t.github.io/)。| [后端](https://github.com/treehollow/treehollow-backend)使用 Go 开发。</br>[网页版前端](https://github.com/treehollow/webhole)使用 React, [iOS/macOS版](https://github.com/treehollow/treehollow-v3-ios)使用 SwiftUI，[Android版](https://github.com/treehollow/treehollow-v3-android)主要使用 Kotlin。 |
 | [新T树洞](https://git.thu.monster/newthuhole/) | [树洞网址](https://new-t.github.io/) | [后端](https://git.thu.monster/newthuhole/hole-backend-rust)使用 Rust 开发。</br>[网页版前端](https://git.thu.monster/newthuhole/hole_thu_frontend)使用 React 开发。|
+|[雨课堂助手Auto](https://github.com/ZaytsevZY/yuketang-helper-auto)|针对雨课堂/荷塘雨课堂的浏览器插件助手，包含自动作答、ai作答、题目提醒、课件下载等多种功能|浏览器插件|
 
 ## 小工具、小脚本
 
