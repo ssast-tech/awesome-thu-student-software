@@ -3,24 +3,44 @@
 
 要求：
 * 实用、可用。具有重要纪念/参考意义的可破例，如T大树洞。
-* 「仅供学习参考、不应传播」的软件一般不收录，如文泉学堂PDF下载。
+* 注明「仅供学习参考、不应传播」的软件一般不收录，如文泉学堂PDF下载。
 
 若有软件已失效，如果您愿意在 Issue / PR 中提醒的话，不胜感激！
 
+## 资源站
+
 > 文档模板、学习资源 等各种杂项「资源」，[THU Services](https://thu.services) 汇总得很好。实际上其中也有对软件工具的汇总，但有点需要二次淘金（如其中查洗衣机状态的多个工具都没有THUInfo好用）。
+
+> [Tuixue](https://tuixue.online/)是另一个包含许多资源的网站，你可以再次找到签证相关信息
 
 ## 项目
 
+### 校内平台
+
 | 项目名 | 简介 | 适用平台 & 开发语言 |
 |-|-|-|
+| [OneTHU](https://github.com/smartThise/OneTHU) |对 THUInfo / learnX / NextTHUxk 等项目的完全重构，包含清华统一认证账号登录下的所有功能（体育场预约除外）|支持 Android，Windows, macOS。</br> 使用 Typescript 开发|
+| [NextTHUxk](https://github.com/smartThise/NextTHUxk) |清华本科生选课增强工具。在原选课页面叠加全屏工作台，提供课程搜索、课表预览、暂存管理、AI 排课等功能。| 使用 Javascript 开发|
 | [thu-learn-lib](https://github.com/Harry-Chen/thu-learn-lib) | 提供网络学堂2018的接口。</br>[thu-learn-lib 开发小记](https://harrychen.xyz/2019/02/09/thu-learn-lib/)| JavaScript库。</br>使用 TypeScript 开发。|
 | [thu-info-lib](https://github.com/thu-info-community/thu-info-app/tree/HEAD/packages/thu-info-lib) | 提供信息门户的接口。 | JavaScript库。</br>使用 TypeScript 开发。|
 | [THUInfo](https://github.com/thu-info-community/thu-info-app) | 集成各种校园信息。如GPA、图书馆资源、教室资源、洗衣机、学生卡消费、新闻、课表…… | 支持 Android、iOS。</br>使用 Typescript、React Native 开发。|
 | [Learn Helper](https://github.com/Harry-Chen/Learn-Helper) | 清华大学网络学堂浏览器扩展。便于管理相关信息；可在扩展的图标上看到待处理事项的数量。</br>[Learn Helper 4.0.0 开发感想](https://harrychen.xyz/2019/02/22/learn-helper-v4/)| 使用 Typescript、React 开发。|
 | [learnX](https://github.com/robertying/learnX) | 清华大学网络学堂 App。| 支持 Android、iOS、macOS。</br>可联动 [课程信息共享计划](https://tsinghua.app/courses)（共享课程的上课时间地点）。</br>使用 Typescript、React Native 开发。|
+| [thu-course-helper](https://github.com/huangkaka666/thu-course-helper) | 清华大学本科生课程评价助手。| 浏览器插件 |
+| [thu-graduate-course-helper](https://github.com/Delthin/thu-graduate-course-helper) | 清华大学研究生选课助手。| 浏览器插件 |
+
+### 树洞
+
+| 项目名 | 简介 | 适用平台 & 开发语言 |
+|-|-|-|
 | [T大树洞](https://github.com/treehollow/) | 旧洞。后由于某些原因主动关停。目前可使用 [新T树洞](https://new-t.github.io/)。| [后端](https://github.com/treehollow/treehollow-backend)使用 Go 开发。</br>[网页版前端](https://github.com/treehollow/webhole)使用 React, [iOS/macOS版](https://github.com/treehollow/treehollow-v3-ios)使用 SwiftUI，[Android版](https://github.com/treehollow/treehollow-v3-android)主要使用 Kotlin。 |
 | [新T树洞](https://git.thu.monster/newthuhole/) | [树洞网址](https://new-t.github.io/) | [后端](https://git.thu.monster/newthuhole/hole-backend-rust)使用 Rust 开发。</br>[网页版前端](https://git.thu.monster/newthuhole/hole_thu_frontend)使用 React 开发。|
-|[雨课堂助手Auto](https://github.com/ZaytsevZY/yuketang-helper-auto)|针对雨课堂/荷塘雨课堂的浏览器插件助手，包含自动作答、ai作答、题目提醒、课件下载等多种功能|浏览器插件|
+
+### 其他平台
+
+| 项目名 | 简介 | 适用平台 & 开发语言 |
+|-|-|-|
+|[雨课堂助手](https://github.com/ZaytsevZY/yuketang-helper-auto)|针对雨课堂/荷塘雨课堂的浏览器插件助手，包含自动作答、ai作答、题目提醒、课件下载等多种功能| 支持浏览器，Windows, macOS。</br> 使用 Typescript 开发 |
 
 ## 小工具、小脚本
 
@@ -53,7 +73,7 @@
 - [Tsinghua Yukuotang Autoplay](https://greasyfork.org/zh-CN/scripts/422349-tsinghua-yukuotang-autoplay)：一个 JS 脚本实操练习项目，功能为自动播放雨阔糖的视频。
 
 信息门户：
-- [清华大学GPA查询](https://greasyfork.org/zh-CN/scripts/420540-清华大学gpa查询)：在信息门户的「全部成绩」页面，计算出每个学期和总的必限、必限任GPA。支持 WebVPN。
+- [清华大学GPA查询](https://greasyfork.org/zh-CN/scripts/420540-清华大学gpa查询)：比较古老的脚本。在信息门户的「全部成绩」页面，计算出每个学期和总的必限、必限任GPA。支持 WebVPN。
 
   > 若使用手机，则更推荐通过 THUInfo 查询成绩。
 
